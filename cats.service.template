@@ -1,0 +1,11 @@
+[Unit]
+Description=Cats website
+
+[Service]
+WorkingDirectory=/path/to/cats/repo
+Type=simple
+ExecStart=.env/bin/python cats.py
+User=gagarski
+
+[Install]
+WantedBy=multi-user.target

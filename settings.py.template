@@ -1,0 +1,17 @@
+import os
+
+PORT = 8888
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+STATIC_ROOT = os.path.join(os.path.dirname(__file__), "static")
+TEMPLATE_ROOT = os.path.join(os.path.dirname(__file__), "templates")
+
+CAT_DIRS = [
+    os.path.join(BASE_DIR, "static/cats/cat_photos"),
+    os.path.join(BASE_DIR, "static/cats/catmapper"),
+]
+
+CAT_EXTS = {
+    ".jpg", ".png"
+}

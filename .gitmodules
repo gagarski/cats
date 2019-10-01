@@ -1,0 +1,3 @@
+[submodule "static/cats"]
+	path = static/cats
+	url = https://github.com/maxogden/cats
