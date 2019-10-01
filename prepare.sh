@@ -6,6 +6,10 @@ if [[ ! -e .env ]]; then
     virtualenv -ppython3.7 .env
 fi
 
+source .env/bin/activate
+pip install -r requirements.txt
+deactivate
+
 if [[ ! -e settings.py ]]; then
     cp settings.py.template settings.py
 fi
