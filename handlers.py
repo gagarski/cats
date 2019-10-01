@@ -1,5 +1,4 @@
 import random
-from typing import Optional, Awaitable
 
 from tornado.web import RequestHandler
 
