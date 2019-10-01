@@ -4,7 +4,7 @@ Description=Cats website
 [Service]
 WorkingDirectory=/path/to/cats/repo
 Type=simple
-ExecStart=.env/bin/python cats.py
+ExecStart=/path/to/cats/repo/.env/bin/python cats.py
 User=gagarski
 
 [Install]
