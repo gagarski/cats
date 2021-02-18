@@ -3,7 +3,7 @@
 pushd "$(dirname "${BASH_SOURCE[0]}")"
 
 if [[ ! -e .env ]]; then
-    virtualenv -ppython3.7 .env
+    virtualenv -ppython3.9 .env
 fi
 
 source .env/bin/activate
